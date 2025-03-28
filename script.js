@@ -56,3 +56,11 @@ for (let i = 0; i < squadre.length; i++) {
     squadre[i].falliSubiti = generateRandomNumber();
 }
 console.log(squadre);
+
+//Stampare in console i nomi delle squadre e i falli subiti creando un nuovo array
+const squadreFalli = [];
+for (let i = 0; i < squadre.length; i++) {
+    const { nome, falliSubiti } = squadre[i];
+    squadreFalli.push (`${nome} ha subito ${falliSubiti} falli`);
+}
+console.log(squadreFalli);
