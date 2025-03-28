@@ -47,3 +47,12 @@ const squadre = [
         falliSubiti: 0
     }
 ];
+
+const generateRandomNumber = () => Math.floor(Math.random() * 100);
+
+//Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti.
+for (let i = 0; i < squadre.length; i++) {
+    squadre[i].punti = generateRandomNumber();
+    squadre[i].falliSubiti = generateRandomNumber();
+}
+console.log(squadre);
