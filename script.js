@@ -25,3 +25,25 @@ for (let i = 0; i < bici.length; i++) {
     }
 }
 console.log(bici[0]);
+
+//Esercizio 2
+console.log("Esercizio 2");
+
+//Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+const squadre = [   
+    {
+        nome: "Milan",
+        punti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "Inter",
+        punti: 0,
+        falliSubiti: 0
+    },
+    {
+        nome: "Juventus",
+        punti: 0,
+        falliSubiti: 0
+    }
+];
