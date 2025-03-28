@@ -17,4 +17,11 @@ const bici = [
     }
 ];
 
-//Stampare in console la bici con il peso minore
+//Stampare in console la bici con il peso minore.
+
+for (let i = 0; i < bici.length; i++) {
+    if (bici[i].peso < bici[0].peso) {
+        bici[0] = bici[i];
+    }
+}
+console.log(bici[0]);
